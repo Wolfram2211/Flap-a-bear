@@ -1,0 +1,65 @@
+/* styles.css */
+body {
+  background-color: rgb(15, 15, 25);
+  color: white; /* Set text color to white */
+  font-family: Arial, sans-serif; /* Set font to Arial, with a fallback to sans-serif */
+  text-align: center; /* Center-align text within the body */
+  padding: 20px; /* Add padding to the entire body */
+}
+
+/* Center the h1 element */
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+  margin: 0 auto; /* Center the table horizontally */
+  padding: 10px; /* Add padding to the table */
+}
+
+/* Specific styles for table headers and cells */
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#upper-right-image {
+  position: fixed;
+  top: 100px;
+  right: 80px;
+  z-index: 1; /* Images appear in front of content */
+  width: 200px;
+  height: auto;
+}
+
+#upper-left-image {
+  position: fixed;
+  top: 200px;
+  left: 80px;
+  z-index: 1;
+  width: 150px;
+  height: auto;
+}
+
+#buttom-left-image {
+  position: fixed;
+  top: 600px;
+  left: 70px;
+  z-index: 1;
+  width: 150px;
+  height: auto;
+}
+
+#buttom-right-image {
+  position: fixed;
+  top: 500px;
+  right: 80px;
+  z-index: 1;
+  width: 180px;
+  height: auto;
+}
